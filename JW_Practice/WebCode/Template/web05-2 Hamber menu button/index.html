@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger Menu Button</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        .menu-button {
+            position: absolute;
+            top: 20px;
+            /* Adjust as needed */
+            left: 20px;
+            /* Adjust as needed */
+            width: 40px;
+            /* Width of the button */
+            height: 30px;
+            /* Height of the button */
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            /* Space between lines */
+        }
+
+        .line {
+            height: 4px;
+            /* Thickness of each line */
+            background-color: #333;
+            /* Color of the lines */
+            border-radius: 2px;
+            /* Rounded edges */
+            transition: all 0.3s ease;
+            /* Smooth transition for hover effects */
+        }
+
+        .menu-button:hover .line {
+            background-color: #555;
+            /* Change color on hover */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menu-button">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+</body>
+
+</html>

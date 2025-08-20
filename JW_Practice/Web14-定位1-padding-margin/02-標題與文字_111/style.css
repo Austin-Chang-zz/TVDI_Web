@@ -1,0 +1,37 @@
+/* @import url("reset.css"); */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+div{
+    box-sizing: border-box;
+        /* border-box will let background image fully inside the box */
+    background-image: url(./banner.jpg);
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+
+.header{
+    padding-left: 650px;
+    padding-top: 165px;
+    padding-right: 100px;
+
+}
+
+h1{
+    /* background-color: aqua; */
+    font-size: 35px;
+    margin-bottom: 4px;
+        /* push the below context toward bottom direction */
+}
+
+p{
+    /* background-color: rgb(206, 166, 166); */
+    font-size: 13px;
+
+}

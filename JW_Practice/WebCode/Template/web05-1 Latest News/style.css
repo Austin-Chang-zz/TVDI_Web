@@ -1,0 +1,25 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.latest-news {
+    color: blue;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.highlights {
+    font-weight: bold;
+    /* Make text bold */
+    margin-left: 5px;
+    /* Space between link and highlights */
+}
+
+/* Optional: Style for hover effect */
+.latest-news:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}

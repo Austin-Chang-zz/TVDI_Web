@@ -1,0 +1,168 @@
+*{
+	padding:0;
+	margin:0;
+	}
+body{
+	background-color:#CCC;}
+h1{
+	font-size:60px;
+	text-align:center;
+	margin:10px;}
+
+h2{
+	text-align: center;
+	/* // <uniquifier>: Use a unique and descriptive class name
+		// <weight>: Use a value from 400 to 700
+	
+		.edu-au-vic-wa-nt-dots-<uniquifier>  */
+	font-family: "3Ddump";
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-size:120px;
+	
+}
+
+@font-face {
+	font-family: "3Ddump";
+	src: url(./3Dumb.ttf);
+}
+
+h3{
+	text-align: center;
+	/* // <uniquifier>: Use a unique and descriptive class name */
+	/* .sixtyfour-convergence-<uniquifier> { */
+	font-family: "Sixtyfour Convergence", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+		"BLED" 0,
+		"SCAN" 0,
+		"XELA" 0,
+		"YELA" 0;
+	font-size: 90px;
+}
+
+
+.wrapper{
+	background-color:#FFF;
+	width:1200px;
+	margin:20px auto;
+	padding:20px;
+
+	display:flex;
+	justify-content:space-around;
+		/* Alignment and Distribution Responsive Design By default, flex items are arranged in a row (horizontally). */
+	font-size:20px;
+	}
+
+.box{
+	width:30%;
+	padding:20px;
+	box-sizing:border-box;
+	border:#333 3px solid;
+	border-radius:20px; 
+	}
+/*==============================*/
+.box1{
+	background-color:#F90;
+	}
+.box1 b{
+	font-family: Entypo;
+	font-size: 50px;
+	font-weight: normal;
+	vertical-align: bottom;
+	margin-right: 10px;
+}
+/*==============================*/
+.box2{
+	background-color:#9C0;
+}
+
+.box2 ul{}
+
+.box2 li{
+	list-style: none;
+	margin-bottom: 10px;
+	/* background-color: #09F; */
+}
+.box2 li i{
+	font-family: Entypo;
+	font-style: normal;
+	font-size: 50px;
+	vertical-align: middle;
+	/* background-color: aquamarine; */
+}
+
+li a{
+	/* background-color: #F90; */
+	margin-left: 10px;
+}
+
+
+/*==============================*/	
+.box3{
+	background-color:#09F;
+}
+
+.box3 li{
+	list-style-type: none;
+	/* background-color: #9C0; */
+	
+}
+.box3 li a{
+	display: block;
+	width: 200px;
+	height: 60px;
+	margin-bottom: 10px;
+	color: rgb(5, 7, 0);
+	line-height: 60px;
+	text-decoration: none;
+	text-indent: 30px;
+	padding-left: 10px;
+}
+.box3 li a span{
+	font-family: Entypo;
+	font-size: 50px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.box3 li a:hover span{
+	color: bisque;
+}
+.box3 li a:hover{
+	background-color: #F90;
+	color: #FFF;
+}
+
+@font-face{
+	font-family: Entypo;
+	/* src:url(./Entypo.otf) */
+	src:url(./Entypo-webfont.ttf)
+}
+	
+.box4{
+
+}
+
+.box4 p::before{
+	content:"home";
+	font-family:"Material Symbols Outlined";
+}
+
+.box4 p::after{
+	content: "delete";
+	font-family: "Material Symbols Outlined";
+}
+
+
+/*======字型嵌入======*/
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+body {
+       margin: 0;
+       /* Remove default margin */
+   }
+
+   .banner {
+       position: relative;
+       /* Position relative for absolute positioning of text */
+       width: 100%;
+       /* Full width */
+       height: 300px;
+       /* Set height for the banner */
+       overflow: hidden;
+       /* Hide overflow */
+   }
+
+   .banner img {
+       width: 100%;
+       /* Image takes full width */
+       height: auto;
+       /* Maintain aspect ratio */
+       object-fit: cover;
+       /* Cover the area without stretching */
+   }
+
+   .banner .text {
+       position: absolute;
+       /* Position text absolutely within the banner */
+       top: 50%;
+       /* Center vertically */
+       left: 50%;
+       /* Center horizontally */
+       transform: translate(-50%, -50%);
+       /* Adjust positioning to center */
+       color: white;
+       /* Text color */
+       font-size: 36px;
+       /* Font size */
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+       /* Optional shadow for better readability */
+   }
+

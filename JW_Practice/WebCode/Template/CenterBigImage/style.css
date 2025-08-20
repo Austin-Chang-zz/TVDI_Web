@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    /* Center the container horizontally */
+    align-items: center;
+    /* Center the container vertically */
+    height: 100vh;
+    /* Full viewport height */
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+    /* Width of the container */
+    height: 300px;
+    /* Height of the container */
+    overflow: hidden;
+    /* Hide overflow */
+    position: relative;
+    /* Position relative for absolute positioning of the image */
+    border: 2px solid #ccc;
+    /* Optional border for visibility */
+}
+
+.container img {
+    position: absolute;
+    /* Position the image absolutely within the container */
+    top: 50%;
+    /* Move down by 50% of the container height */
+    left: 50%;
+    /* Move right by 50% of the container width */
+    transform: translate(-50%, -50%);
+    /* Center the image by shifting it back by half its own height and width */
+    max-width: none;
+    /* Allow the image to exceed its original size */
+}
+
+

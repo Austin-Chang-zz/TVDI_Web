@@ -1,0 +1,31 @@
+.content .allbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    /* justify-content: space-around; */
+}
+.content .pbox{
+    background-color: #eaa9a9;
+    padding: 10px;
+    margin: 20px;
+}
+
+h4{
+    padding-left: 10px;
+}
+
+.allbox{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.allbox a .pbox{
+    transition: all 1s;
+}
+.allbox a:hover .pbox{
+    background-color: #908eed;
+}
+
+.allbox a:hover .pbox img{
+    transform: scale(1.05);
+}

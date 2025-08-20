@@ -1,0 +1,42 @@
+.box{
+    background-image: url(./box.png);
+    width: 300px;
+    height: 600px;
+
+    /* put in center */
+    margin: 0 auto;  
+
+
+}
+
+.box a{
+
+    /* this box-sizing line will not explode the box */
+    box-sizing: border-box;
+
+    display: block;
+    /* background-color: blue; */
+    background-image: url(./btn01.png);
+    width: 300px;
+    height: 60px;
+
+    /* button height */
+    line-height: 60px;
+
+    /* affect the box shift left ----------------*/
+    /* padding-left: 70px; */
+
+    /* text-align: center; */
+    text-indent: 80px;
+    font-size: 20px;
+
+
+
+
+    
+}
+.box a:hover{
+    background-image: url(./btn02.png);
+}
+
+

@@ -1,0 +1,114 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	margin: 0 auto;
+	width: 1200px;
+}
+.header {
+	background-image: url(banner.png);
+	width: 1200px;
+	height: 250px;
+	position: relative;
+}
+.header h1 {
+	position: absolute;  
+		/* used for screen arrangement */
+	left: 300px;
+	top: 72px;
+
+	/* transform: scale(2); */
+	/* transform: skewX(20deg); */
+	/* transform: rotate(-30deg) scale(1.2); */
+	/* transform: translate(200px); */
+		/* transfer used for motion */
+	animation: xxx 3s infinite alternate;
+}
+
+@keyframes xxx{
+	/* 0%{transform: rotate(0deg);}
+	100%{
+		transform: rotate(360deg); */
+	0%{top: -200px;}
+	40%{
+		transform: rotate(0deg);
+	}
+	50%{
+		top: 72px;
+		transform: rotate(360deg);
+	}
+	100%{
+		top: 72px;
+		transform: rotate(360deg);
+	}
+
+	}
+
+}
+.nav {
+	background-color: #F90;
+	height: 50px;
+	padding: 20px 40px;
+}
+.nav ul {}
+.nav li {
+	float: left;
+	list-style-type: none;
+}
+.nav li a {
+	display: block;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: #330;
+	border-radius: 40px;
+	text-shadow: #FFF 1px 1px 1px;
+	background-color: rgba(255, 255, 255, 0.3);
+	margin-right: 10px;
+	box-shadow: #333 2px 2px 2px;
+	transition: all 5s;
+	/* animation: xxx 1s linear infinite; */
+	/* animation: xxx 1s cubic-bezier(.18, 1.06, .94, .02) 5s infinite; */
+
+	
+}
+.nav li a:hover {
+	color: #FFF;
+	background-color: #330;
+	text-shadow: none;
+	box-shadow: none;
+	/* transform: translatey(5px); */
+	/* transform: translate(10px 20px);
+	transition: all .5s;
+	transform: rotate(360deg) scale(1.5); */
+	transform: perspective(100px) rotateY(360deg);
+		/* rotate can have 3 axis */
+}
+.content {
+	background-color: #F2EEDB;
+	padding: 15px 20px;
+	color: #333;
+}
+.content h3 {}
+.content img {
+	float: right;
+	margin-left: 10px;
+}
+.content p {
+	margin-top: 15px;
+}
+.footer {
+	background-color: #333;
+	color: #FFF;
+	text-align: center;
+	padding: 30px;
+}
+.footer h3 {
+	margin-bottom: 10px;
+}
+.footer p {}

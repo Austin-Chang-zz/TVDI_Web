@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    /* Remove default margin */
+}
+
+.banner {
+    width: 100%;
+    /* Full width */
+    height: 200px;
+    /* Set height for the banner */
+    overflow: hidden;
+    /* Hide overflow */
+}
+
+.banner img {
+    width: 100%;
+    /* Image takes full width */
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: cover;
+    /* Cover the area without stretching */
+}
+

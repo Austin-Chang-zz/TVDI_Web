@@ -1,0 +1,23 @@
+body{
+    background-color: #f3f4e6;
+}
+
+h1{
+    background-color: #f5bcbc;
+    width: 200px;
+}
+
+h2{
+    background-color: #8cf088;
+}
+
+p{
+    background-color: #c5ed35;
+}
+
+a{
+    background-color: #e3e4f5;
+    display: block;
+    height: 50px;
+    width: 80px;
+}

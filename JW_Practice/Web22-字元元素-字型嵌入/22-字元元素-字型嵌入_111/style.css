@@ -1,0 +1,90 @@
+*{
+	padding:0;
+	margin:0;
+	}
+body{
+	background-color:#CCC;}
+h1{
+	font-size:60px;
+	text-align:center;
+	margin:10px;}
+h2{
+	/* // <uniquifier>: Use a unique and descriptive class name
+		// <weight>: Use a value from 400 to 700
+	
+		.edu-au-vic-wa-nt-dots-<uniquifier> { */
+	/* font-family: "Edu AU VIC WA NT Dots", cursive; */
+	font-family: "3Ddumb";
+	font-optical-sizing: auto;
+	font-weight: 700;
+	text-align:center;
+	font-size:100px;
+
+}
+
+h3{
+	/* // <uniquifier>: Use a unique and descriptive class name
+	
+		.sixtyfour-convergence-<uniquifier> { */
+	font-family: "Sixtyfour Convergence", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+		"BLED" 0,
+		"SCAN" 0,
+		"XELA" 0,
+		"YELA" 0;
+	font-weight: 700;
+	text-align: center;
+	font-size: 100px
+	
+	}
+
+@font-face {
+	font-family:"3Ddumb" ;
+	src: url(3Dumb.ttf);
+}
+
+.wrapper{
+	background-color:#FFF;
+	width:1200px;
+	margin:20px auto;
+	padding:20px;
+	display:flex;
+	justify-content:space-around;
+	font-size:20px;
+	}
+
+.box{
+	width:30%;
+	padding:20px;
+	box-sizing:border-box;
+	border:#333 3px solid;
+	border-radius:20px;
+	}
+/*==============================*/
+.box1{
+	background-color:#F90;
+	}
+
+/*==============================*/
+.box2{
+	background-color:#9C0;
+}
+
+/*==============================*/	
+.box3{
+	background-color:#09F;
+}
+
+
+	
+/*======字型嵌入======*/
+
+
+
+
+
+
+

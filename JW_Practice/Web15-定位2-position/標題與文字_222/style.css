@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    background-image: url(./banner.jpg);
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+    /* position: relative; */
+        /* relatiev postion setting will be relatively frozened to above width, height and margin and h1 and p will be inherited*/
+}
+
+h1{
+    /* background-color: #f78989; */
+    position: absolute;
+        /* distance difference counted from zero of div if no position settings*/
+        /* The position settings will over-write the <div> settings and counted from body zero if <dif> had no relative position setting */
+    top:100px;
+    left:850px
+        
+}
+
+p{
+    /* background-color: #abec9a; */
+    position: absolute;
+        /* distance difference counted from zero of div if no postion settings*/
+        /* The position settings will over-write the <div> settings and counted from body zero */
+    top: 170px;
+    left: 820px;
+    width: 450px;
+    font-size: 16px;     
+}

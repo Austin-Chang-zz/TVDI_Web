@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    border-right-color: #f3a6a6;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    /* background-color: #8cdee0; */
+    width: 1920px;
+    height: 4200px;
+}
+
+.header{
+    /* background-color: #ecb8b8; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+/* ---------------- */
+.banner {
+    background-image: url(./images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    width: 100%;
+}
+
+.banner p.bold {
+    color: white;
+    font-size: 140px;
+    font-weight: bold;
+    padding: 120px 0 0 110px;
+    height: 30%;
+    width: 50%;
+}
+
+.banner p {
+    color: white;
+    font-size: 25px;
+    padding: 250px 0 0 110px;
+}
+
+.banner form {
+    padding: 80px 0 0 200px;
+}
+
+
+/* ------------- */
+.banner{
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.header h1{
+    margin-left: 90px;
+}
+
+.header ul{
+    margin-right: 20px;
+}
+.header li{
+    float: left;
+    list-style: none;
+    margin-right: 25px;
+}
+
+.header a{
+    text-decoration: none;
+        /* Optional: Remove underline for cleaner look */
+}
+
+/* nav box------------------ */
+.navbox {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.navbox {
+    margin: 40px 100px;
+}
+
+.navbox div {
+    padding: 20px;
+    color: white;
+}
+
+.navbox p {
+    padding: 15px 0;
+}
+
+.navbox img {
+    padding: 20px 0;
+}
+
+
+/* --------------navigate box------------------------- */
+
+.navbox {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.navbox ul {
+    display: flex;
+    justify-content: center;
+    /* width: 800px; */
+}
+
+.navbox li {
+    background-color: #fff;
+    width: 360px;
+    height: 500px;
+    list-style: none;
+}
+
+.navbox .step1 {
+    background-color: #ff9800;
+}
+
+.navbox .step2 {
+    background-color: #ff7043;
+}
+
+.navbox .step3 {
+    background-color: black;
+}
+
+.navbox .step4 {
+    background-color: #757575;
+}
+
+.navbox h2,h3,p {
+    color: white;
+    /* max-width: 300px; */
+    /* text-align: left; */
+}
+
+/* Sustain Section */
+.sustain {
+    text-align: center;
+    background-color: #1f181815;
+    padding: 60px 20px;
+    margin-top: 50px;
+}
+
+.sustain h2 {
+    color: #ee5a2d;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.sustain p {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+    font-size: 1em;
+    color: #333;
+}
+
+.read-more {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #e64a19;
+}
+
+/* --------------------- */
+.box {
+    padding: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box .textbox {
+    background-color: rgba(211, 211, 211, 0.479);
+    position: relative;
+}
+
+.box .adv {
+    position: absolute;
+    top: 150px;
+}
+
+.box .intrd h2{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.box .intrd h3{
+    color: rgba(0, 0, 0, 0.685);
+}
+
+.box .textbox .intrd p{
+    color: #757575;
+}
+.box p {
+    padding: 20px 80px;
+}
+
+.box img {
+    vertical-align: bottom;
+}
+
+
+
+
+
+/* ------------------bottom box----------- */
+.btwrap{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/handbg.jpg);
+    width: 1920px;
+    height: 600px;
+}
+
+.bottom {
+    /* div{ */
+    /* background-color: #e5a0a0; */
+    /* background-image: url(./images/handbg.jpg); */
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    /* critical line --------------------------------- */
+    align-items: center;
+    /* padding: 0 20px; */
+}
+
+.bottom h1 {
+    margin-left: 10px;
+
+}
+
+
+.bottom ul {
+    /* background-color: #d7989841; */
+    display: flex;
+    justify-content: center;
+}
+
+.bottom li {
+    /* background-color: #95ebc2; */
+    list-style: none;
+    margin-top: 1000px;
+    border: 2px solid black;
+        /* 2px border with black color */
+    
+
+}
+
+.bottom h5{
+    text-align: center;
+    font-size: 25px;
+    color: #333;
+}
+
+.bottom p{
+    text-align: center;
+    font-style: italic;
+        /* Italicize the text */
+    margin: 20px 20px;
+    font-size: 25px;
+    color: #333;
+    
+}
+.bottom li a {
+    display: flex;
+    width: 140px;
+    height: 140px;
+    justify-content: center;
+    margin: 25px auto;
+    background-repeat: no-repeat;
+  
+}
+
+.icon1 a {
+    background-image: url(./images/icon01.png);
+
+}
+
+.icon2 a {
+    background-image: url(./images/icon02.png);
+}
+
+.icon3 a {
+    background-image: url(./images/icon03.png);
+}
+
+
+
+.bottom li {
+    background-color: #fff;
+    width: 415px;
+    height: 385px;
+    list-style: none;
+    margin-left: 36px;
+    /* justify-content: center; */
+}
+
+
+
+.btfoot{
+    /* background-color: #5a50e3; */
+    margin-top: 200px;
+    text-align: center;
+}
+
+.btfoot p{
+    font-style: italic;
+        /* Italicize the text */
+    color: #333;
+}
+
+.footer{
+    margin-top: 100px;
+    background-color: #271c1ced;
+    color: #18280d;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+     
+}
+
+.footer p{
+    /* width: 800px; */
+    margin: 20px 600px 15px;
+    
+}
+
+.footer a{
+    color: lightblue;
+        /* Set hyperlink color to light blue */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .banner p.bold {
+        font-size: 2.5rem;
+    }
+
+    .banner p {
+        font-size: 1.2rem;
+    }
+
+    .navbox li {
+        flex: 1 1 calc(50% - 40px);
+    }
+
+    .box {
+        padding: 20px;
+    }
+
+    .sustain h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .navbox li {
+        flex: 1 1 calc(100% - 40px);
+    }
+
+    .banner {
+        padding: 0 10px;
+    }
+
+    .banner p.bold {
+        font-size: 2rem;
+    }
+
+    .banner p {
+        font-size: 1rem;
+    }
+
+    .sustain h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .banner p.bold {
+        font-size: 1.5rem;
+    }
+
+    .banner p {
+        font-size: 0.8rem;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+}

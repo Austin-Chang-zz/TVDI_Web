@@ -1,0 +1,21 @@
+  
+  
+  
+  .image-container {
+      display: flex;
+      justify-content: space-around;
+      /* Space images evenly */
+      margin: 20px;
+  }
+
+  figure {
+      text-align: center;
+      /* Center the caption under the image */
+  }
+
+  img {
+      max-width: 100%;
+      /* Responsive image */
+      height: auto;
+      /* Maintain aspect ratio */
+  }

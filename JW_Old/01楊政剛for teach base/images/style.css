@@ -1,0 +1,1201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: Arial, Helvetica,'微軟正黑體' ,sans-serif;
+    font-size: 18px;
+}
+
+/* header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header h1{}
+
+header ul{}
+
+header ul li{
+    list-style: none;;
+    float: left;
+}
+
+header ul li a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+header ul li a:hover{}
+
+/* banner */
+.banner1 {
+    display: flex;
+    
+    justify-content: left; 
+    position: relative;
+    width: 100%;
+    
+}
+
+.banner1 img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.banner1 .content1 {
+    position:absolute;
+    color: white;
+    width: 35%; 
+    margin: 0 5%;
+    
+}
+
+.banner1 .content1 h1{
+    margin: 10% 0;
+    font-size: 4rem;
+}
+.banner1 .content1 p{
+    line-height: 1.6;
+    margin-bottom: 10%;
+    
+}
+.banner1 .content1 .typing{
+    display: flex;
+    
+}
+.banner1 .content1 input{
+    width: 60%;
+}
+
+.banner1 .content1 a{
+    text-decoration: none;
+    border:  grey 2px solid;
+    background-color: grey;
+    padding: 0 15px;
+    color: white;
+    
+
+}
+
+.banner1 .content1 a:hover{
+    background-color: #61b9f0;
+}
+
+/* block*/
+
+.block{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4%;
+    
+}
+
+.block .block1{
+    background-color: #f57f09;
+    width: 22%;
+    padding: 3% 0% 0 3%;
+}
+
+.block .block1 h1{
+    font-size: 4rem;
+}
+
+.block .block1 h3{
+    margin: 10% 0;
+}
+
+.block .block1 p{
+    line-height: 1.6;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.block .block1 a{
+    
+}
+
+.block .block1 img{
+    width: 40%;
+    height: auto;
+    vertical-align: bottom;
+    
+}
+
+.block .block2{
+    background-color: #f51d09;
+    width: 22%;
+    padding: 3% 0 0 3%;
+}
+.block .block2 h1{
+    font-size: 4rem;
+}
+
+.block .block2 h3{
+    margin: 10% 0;
+}
+
+.block .block2 p{
+    line-height: 1.6;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.block .block2 a{
+    
+}
+
+.block .block2 img{
+    width: 40%;
+    height: auto;
+    vertical-align: bottom;
+    
+}
+
+.block .block3{
+    background-color: #535353;
+    width: 22%;
+    padding: 3% 0 0 3%;
+}
+.block .block3 h1{
+    font-size: 4rem;
+}
+
+.block .block3 h3{
+    margin: 10% 0;
+}
+
+.block .block3 p{
+    line-height: 1.6;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.block .block3 a{
+    
+}
+
+.block .block3 img{
+    width: 40%;
+    height: auto;
+    vertical-align: bottom;
+    
+}
+.block .block4{
+    background-color: #81807f;
+    width: 22%;
+    padding: 3% 0% 0 3%;
+}
+.block .block4 h1{
+    font-size: 4rem;
+    
+}
+
+.block .block4 h3{
+    margin: 10% 0;
+    width: 100%;
+}
+
+.block .block4 p{
+    line-height: 1.6;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.block .block4 a{
+    
+}
+
+.block .block4 img{
+    width: 40%;
+    height: auto;
+    vertical-align: bottom;
+    
+}
+
+/*info*/
+
+.info{
+    background-color: #c9c9c9;
+    padding: 2%;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.info h1{
+    color: #f57f09;
+    margin: 1%;
+}
+
+.info p{
+    line-height: 1.6;
+    margin-bottom: 2%;
+    width: 40%;
+    margin-left: 29.5%;
+}
+
+.info a{
+    text-decoration: none;
+    background-color: #ff7810;
+    padding: 1%;
+    color: white;
+}
+
+.info a:hover{
+    background-color: #3634d0;
+}
+
+
+/*product*/
+
+.product{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.product .pic1{
+    width: 30%;
+}
+.product .pic1 img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+
+.product .wbox1{
+    width: 30%;
+    background-color: #c9c8c8;
+    text-align: center;
+}
+.product .wbox1 .h1{
+    padding-top:30%;
+    
+    margin-bottom: 15%;
+}
+.product .wbox1 a{}
+
+
+.product .pic2{
+    width: 30%;
+}
+.product .pic2 img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.product .wbox2{
+    width: 30%;
+    background-color: #c9c8c8;
+    text-align: center;
+}
+.product .wbox2 img{
+    margin: 10% 0;
+}
+.product .wbox2 h1{
+    margin-bottom: 5%;
+}
+.product .wbox2 p{
+    line-height: 1.6;
+    margin-bottom: 3%;
+}
+.product .wbox2 a{}
+
+
+.product .pic3{
+    width: 30%;
+}
+.product .pic3 img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.product .wbox3{
+    width: 30%;
+    background-color: #c9c8c8;
+    text-align: center;
+}
+.product .wbox3 img{
+    margin: 10% 0;
+}
+.product .wbox3 h1{
+    margin-bottom: 5%;
+}
+.product .wbox3 p{
+    line-height: 1.6;
+    margin-bottom: 3%;
+}
+.product .wbox3 a{}
+
+
+/* icon*/
+
+.icon{
+    margin-top: 5%;
+    text-align: center;
+    
+    background-image: url(./handbg.jpg);
+    padding-top: 30%;
+    background-repeat: no-repeat;
+}
+.icon .handbg{
+    
+}
+.icon .handbg img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.icon .iconbox{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    
+    
+}
+
+.icon .icon1{
+    border: 2px black solid;
+    width: 23%;
+    padding-bottom: 3%;
+    background-color: white;
+    
+}
+.icon .icon1 .img1 img{
+    width: 70%;
+        height: auto;
+        vertical-align: bottom;
+}
+.icon .icon1 .h4{}
+.icon .icon1 p{
+    line-height: 1.6;
+    margin-top: 2%;
+    
+}
+
+.icon .icon2{
+    border: 2px black solid;
+    width: 23%;
+    margin:0 2% ;
+    padding-bottom: 3%;
+    background-color: white;
+}
+.icon .icon2 .img2 img{
+    width: 70%;
+        height: auto;
+        vertical-align: bottom;
+}
+.icon .icon2 .h4{}
+.icon .icon2 p{
+    line-height: 1.6;
+    margin-top: 2%;
+    
+}
+
+.icon .icon3{
+    border: 2px black solid;
+    width: 23%;
+    padding-bottom: 3%;
+    background-color: white;
+}
+.icon .icon3 .img3 img{
+    width: 70%;
+        height: auto;
+        vertical-align: bottom;
+}
+.icon .icon3 .h4{}
+.icon .icon3 p{
+    line-height: 1.6;
+    margin-top: 2%;
+    
+}
+
+.icon .icon4{
+    margin: 2%;
+}
+.icon .icon4 a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    
+    background-color: #616161;
+    
+}
+
+footer h4{
+    padding-top: 20px;
+}
+
+footer p{padding-top: 20px;}
+
+/*平板*/
+@media screen and (max-width:1200px) and (min-width:769px) {
+    
+    
+    
+    
+    .banner1 .content1 {
+        position:absolute;
+        color: white;
+        width: 35%; 
+        margin: 0 3%;
+        
+    }
+    
+    .banner1 .content1 h1{
+        margin: 10% 0;
+        font-size: 2rem;
+    }
+    .banner1 .content1 p{
+        line-height: 1.2;
+        font-size: 0.8rem;
+        
+    }
+    .banner1 .content1 .typing{
+        display: flex;
+        
+    }
+    .banner1 .content1 input{
+        width: fit-content;
+    }
+    
+    .banner1 .content1 a{
+        text-decoration: none;
+        border:  grey 2px solid;
+        background-color: grey;
+        padding:0 15px;
+        color: white;
+        
+        
+    
+    }
+    
+    .block{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 4%;
+        flex-wrap: wrap;
+        
+    }
+    
+    .block .block1{
+        background-color: #f57f09;
+        width: 44%;
+        padding: 3% 0% 0 3%;
+    }
+    
+    .block .block1 h1{
+        font-size: 4rem;
+    }
+    
+    .block .block1 h3{
+        margin: 10% 0;
+    }
+    
+    .block .block1 p{
+        line-height: 1.6;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    
+    .block .block1 a{
+        
+    }
+    
+    .block .block1 img{
+        width: 20%;
+        height: auto;
+        vertical-align: bottom;
+        
+    }
+    
+    .block .block2{
+        background-color: #f51d09;
+        width: 44%;
+        padding: 3% 0 0 3%;
+    }
+    .block .block2 h1{
+        font-size: 4rem;
+    }
+    
+    .block .block2 h3{
+        margin: 10% 0;
+    }
+    
+    .block .block2 p{
+        line-height: 1.6;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    
+    .block .block2 a{
+        
+    }
+    
+    .block .block2 img{
+        width: 20%;
+        height: auto;
+        vertical-align: bottom;
+        
+    }
+    
+    .block .block3{
+        background-color: #535353;
+        width: 44%;
+        padding: 3% 0 0 3%;
+    }
+    .block .block3 h1{
+        font-size: 4rem;
+    }
+    
+    .block .block3 h3{
+        margin: 10% 0;
+    }
+    
+    .block .block3 p{
+        line-height: 1.6;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    
+    .block .block3 a{
+        
+    }
+    
+    .block .block3 img{
+        width: 20%;
+        height: auto;
+        vertical-align: bottom;
+        
+    }
+    .block .block4{
+        background-color: #81807f;
+        width: 44%;
+        padding: 3% 0% 0 3%;
+    }
+    .block .block4 h1{
+        font-size: 4rem;
+        
+    }
+    
+    .block .block4 h3{
+        margin: 10% 0;
+        width: 100%;
+    }
+    
+    .block .block4 p{
+        line-height: 1.6;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    
+    .block .block4 a{
+        
+    }
+    
+    .block .block4 img{
+        width: 20%;
+        height: auto;
+        vertical-align: bottom;
+        
+    }
+   
+
+
+
+    .product{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 5%;
+    }
+    
+    .product .pic1{
+        width: 50%;
+    }
+    .product .pic1 img{
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+    
+    
+    .product .wbox1{
+        width: 50%;
+        background-color: #c9c8c8;
+        text-align: center;
+    }
+    .product .wbox1 .h1{
+        padding-top:30%;
+        
+        margin-bottom: 12%;
+    }
+    .product .wbox1 a{}
+    
+    
+    .product .pic2{
+        width: 50%;
+    }
+    .product .pic2 img{
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+    
+    .product .wbox2{
+        width: 50%;
+        background-color: #c9c8c8;
+        text-align: center;
+    }
+    .product .wbox2 img{
+        margin: 10% 0;
+    }
+    .product .wbox2 h1{
+        margin-bottom: 5%;
+    }
+    .product .wbox2 p{
+        line-height: 1.6;
+        margin-bottom: 2%;
+    }
+    .product .wbox2 a{}
+    
+    
+    .product .pic3{
+        width: 50%;
+    }
+    .product .pic3 img{
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+    
+    .product .wbox3{
+        width: 50%;
+        background-color: #c9c8c8;
+        text-align: center;
+    }
+    .product .wbox3 img{
+        margin: 10% 0;
+    }
+    .product .wbox3 h1{
+        margin-bottom: 5%;
+    }
+    .product .wbox3 p{
+        line-height: 1.6;
+        margin-bottom: 2%;
+    }
+    .product .wbox3 a{}
+    
+
+
+    .icon{
+        margin-top: 5%;
+        text-align: center;
+        
+        background-image: url(./handbg.jpg);
+        padding-top: 50%;
+        background-repeat: no-repeat;
+    }
+    .icon .handbg{
+        
+    }
+    .icon .handbg img{
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+    
+    .icon .iconbox{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+        
+        
+    }
+    
+    .icon .icon1{
+        border: 2px black solid;
+        width: 23%;
+        padding-bottom: 3%;
+        background-color: white;
+        
+    }
+    .icon .icon1 .img1 img{
+        width: 70%;
+        height: auto;
+        vertical-align: bottom;
+    }
+    
+    .icon .icon1 .h4{
+        
+    }
+    .icon .icon1 p{
+        line-height: 1.4;
+        margin-top: 2%;
+        
+    }
+    
+    .icon .icon2{
+        border: 2px black solid;
+        width: 23%;
+        margin:0 2% ;
+        padding-bottom: 3%;
+        background-color: white;
+    }
+    .icon .icon2 .img2 img{
+        width: 70%;
+        height: auto;
+        vertical-align: bottom;
+    }
+    .icon .icon2 .h4{}
+    .icon .icon2 p{
+        line-height: 1.4;
+        margin-top: 2%;
+        
+    }
+    
+    .icon .icon3{
+        border: 2px black solid;
+        width: 23%;
+        padding-bottom: 3%;
+        background-color: white;
+    }
+    .icon .icon3 .img3 img{
+        width: 70%;
+        height: auto;
+        vertical-align: bottom;
+    }
+    .icon .icon3 .h4{}
+    .icon .icon3 p{
+        line-height: 1.4;
+        margin-top: 2%;
+        
+    }
+    
+    .icon .icon4{
+        margin: 2%;
+    }
+    .icon .icon4 a{
+        text-decoration: none;
+    }
+
+
+}
+
+/*手機*/
+@media screen and (max-width:768px) {
+    
+
+    .banner1 .content1 {
+        position:absolute;
+        color: white;
+        width: 35%; 
+        margin: 0 3%;
+        
+    }
+    
+    .banner1 .content1 h1{
+        margin: 10% 0;
+        font-size: 1.3rem;
+    }
+    .banner1 .content1 p{
+        line-height: 1;
+        font-size: 0.5rem;
+        
+    }
+    .banner1 .content1 .typing{
+        display: flex;
+        
+    }
+    .banner1 .content1 input{
+        width: fit-content;
+        font-size: 0.4rem;
+    }
+    
+    .banner1 .content1 a{
+        text-decoration: none;
+        border:  grey 2px solid;
+        background-color: grey;
+        padding:0 15px;
+        color: white;
+        font-size: 0.4rem;
+        
+        
+    
+    }
+
+
+
+
+    .block{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 4%;
+        flex-wrap: wrap;
+        
+    }
+    
+    .block .block1{
+        background-color: #f57f09;
+        width: 80%;
+        padding: 3% 0% 0 3%;
+    }
+    
+    .block .block1 h1{
+        font-size: 4rem;
+    }
+    
+    .block .block1 h3{
+        margin: 10% 0;
+    }
+    
+    .block .block1 p{
+        line-height: 1.6;
+        margin-bottom: 5%;
+        width: 100%;
+        padding-right: 20px;
+    }
+    
+    .block .block1 a{
+        
+    }
+    
+    .block .block1 img{
+        width: 15%;
+        height: auto;
+        vertical-align: bottom;
+        
+    }
+    
+    .block .block2{
+        background-color: #f51d09;
+        width: 80%;
+        padding: 3% 0 0 3%;
+    }
+    .block .block2 h1{
+        font-size: 4rem;
+    }
+    
+    .block .block2 h3{
+        margin: 10% 0;
+    }
+    
+    .block .block2 p{
+        line-height: 1.6;
+        margin-bottom: 5%;
+        width: 100%;
+        padding-right: 20px;
+    }
+    
+    .block .block2 a{
+        
+    }
+    
+    .block .block2 img{
+        width: 15%;
+        height: auto;
+        vertical-align: bottom;
+        
+    }
+    
+    .block .block3{
+        background-color: #535353;
+        width: 80%;
+        padding: 3% 0 0 3%;
+    }
+    .block .block3 h1{
+        font-size: 4rem;
+    }
+    
+    .block .block3 h3{
+        margin: 10% 0;
+    }
+    
+    .block .block3 p{
+        line-height: 1.6;
+        margin-bottom: 5%;
+        width: 100%;
+        padding-right: 20px;
+    }
+    
+    .block .block3 a{
+        
+    }
+    
+    .block .block3 img{
+        width: 15%;
+        height: auto;
+        vertical-align: bottom;
+        
+    }
+    .block .block4{
+        background-color: #81807f;
+        width: 80%;
+        padding: 3% 0% 0 3%;
+    }
+    .block .block4 h1{
+        font-size: 4rem;
+        
+    }
+    
+    .block .block4 h3{
+        margin: 10% 0;
+        width: 100%;
+    }
+    
+    .block .block4 p{
+        line-height: 1.6;
+        margin-bottom: 5%;
+        width: 100%;
+        padding-right: 20px;
+    }
+    
+    .block .block4 a{
+        
+    }
+    
+    .block .block4 img{
+        width: 15%;
+        height: auto;
+        vertical-align: bottom;
+        
+    }
+   
+    .info{
+        background-color: #c9c9c9;
+        padding: 2%;
+        text-align: center;
+        margin-top: 4%;
+    }
+    
+    .info h1{
+        color: #f57f09;
+        margin: 1%;
+        font-size: 1.2rem;
+    }
+    
+    .info p{
+        line-height: 1.4;
+        margin-bottom: 2%;
+        width: 40%;
+        margin-left: 29.5%;
+        font-size: 0.6rem;
+    }
+    
+    .info a{
+        text-decoration: none;
+        background-color: #ff7810;
+        padding: 1%;
+        color: white;
+        font-size: 0.6rem;
+    }
+    
+    .info a:hover{
+        background-color: #3634d0;
+    }
+    
+
+    .product{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 5%;
+    }
+    
+    .product .pic1{
+        width: 90%;
+    }
+    .product .pic1 img{
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+    
+    
+    .product .wbox1{
+        width: 90%;
+        background-color: #c9c8c8;
+        text-align: center;
+
+        padding-bottom: 15%;
+    }
+    .product .wbox1 .h1{
+        padding-top:30%;
+        
+        margin-bottom: 15%;
+    }
+    .product .wbox1 a{}
+    
+    
+    .product .pic2{
+        width: 90%;
+    }
+    .product .pic2 img{
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+    
+    .product .wbox2{
+        width: 90%;
+        background-color: #c9c8c8;
+        text-align: center;
+        padding-bottom: 15%;
+    }
+    .product .wbox2 img{
+        margin: 10% 0;
+    }
+    .product .wbox2 h1{
+        margin-bottom: 5%;
+    }
+    .product .wbox2 p{
+        line-height: 1.6;
+        margin-bottom: 2%;
+    }
+    .product .wbox2 a{}
+    
+    
+    .product .pic3{
+        width: 90%;
+    }
+    .product .pic3 img{
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+    
+    .product .wbox3{
+        width: 90%;
+        background-color: #c9c8c8;
+        text-align: center;
+        padding-bottom: 15%;
+    }
+    .product .wbox3 img{
+        margin: 10% 0;
+    }
+    .product .wbox3 h1{
+        margin-bottom: 5%;
+    }
+    .product .wbox3 p{
+        line-height: 1.6;
+        margin-bottom: 2%;
+    }
+    .product .wbox3 a{}
+    
+
+
+
+    .icon{
+        margin-top: 5%;
+        text-align: center;
+        
+        background-image: url(./handbg.jpg);
+        padding-top: 95%;
+        background-repeat: no-repeat;
+    }
+    .icon .handbg{
+        
+    }
+    .icon .handbg img{
+        width: 100%;
+        height: auto;
+        vertical-align: bottom;
+    }
+    
+    .icon .iconbox{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+        
+        
+    }
+    
+    .icon .icon1{
+        border: 2px black solid;
+        width: 23%;
+        padding-bottom: 3%;
+        background-color: white;
+        font-size: 0.8rem;
+        
+    }
+    .icon .icon1 .img1 img{
+        width: 50%;
+        height: auto;
+        vertical-align: bottom;
+    }
+    .icon .icon1 .h4{
+        
+    }
+    .icon .icon1 p{
+        line-height: 1.2;
+        margin-top: 2%;
+        
+    }
+    
+    .icon .icon2{
+        border: 2px black solid;
+        width: 23%;
+        margin:0 2% ;
+        padding-bottom: 3%;
+        background-color: white;
+        font-size: 0.8rem;
+    }
+    .icon .icon2 .img2 img{
+        width: 50%;
+        height: auto;
+        vertical-align: bottom;
+    }
+    
+    .icon .icon2 .h4{}
+    .icon .icon2 p{
+        line-height: 1.2;
+        margin-top: 2%;
+        
+    }
+    
+    .icon .icon3{
+        border: 2px black solid;
+        width: 23%;
+        padding-bottom: 3%;
+        background-color: white;
+        font-size: 0.8rem;
+    }
+    .icon .icon3 .img3 img{
+        width: 50%;
+        height: auto;
+        vertical-align: bottom;
+    }
+    
+    .icon .icon3 .h4{}
+    .icon .icon3 p{
+        line-height: 1.2;
+        margin-top: 2%;
+        
+    }
+    
+    .icon .icon4{
+        margin: 2%;
+    }
+    .icon .icon4 a{
+        text-decoration: none;
+    }
+
+}

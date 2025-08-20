@@ -1,0 +1,45 @@
+
+
+
+/* @import url("reset.css"); */
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+div {
+    background-image: url(./banner.jpg);
+    /* background-size: cover; */
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+
+
+
+}
+
+
+h1 {
+    /* for locating the h1 box postion */
+    background-color: rgba(204, 13, 13, 0.533);
+    position: absolute;
+    left: 850px;
+    top: 100px;
+
+}
+
+p {
+    /* for locating the h1 box postion */
+    background-color: rgba(184, 200, 205, 0.663);
+    position:absolute;
+    width: 450px;
+    left: 820px;
+    top: 170px;
+    font-size: 16px;
+
+}

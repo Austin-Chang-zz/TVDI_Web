@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    /* background-image: url(./banner2.png); */
+    background-image: url(./bg.jpg);
+    position: fixed;
+    /* Fixes the banner at the top=================================== */
+    top: 0;
+    /* Position from the top */
+    left: 0;
+    /* Aligns to the left */
+    width: 100%;
+    /* Full width */
+    height: 60%;
+    background-color: #4CAF50;
+    /* Banner background color */
+    color: white;
+    /* Text color */
+    padding: 15px;
+    /* Padding around text */
+    text-align: center;
+    /* Centered text */
+    z-index: 1000;
+    /* Ensures it stays on top of other content=========================== */
+}
+
+.content {
+    margin-top: 500px;
+    /* Space for the fixed banner */
+    padding: 15px;
+    height: 2000px;
+    /* Just for demonstration (long content) */
+}

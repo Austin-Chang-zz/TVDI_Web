@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 1px;
+}
+
+div{
+  
+}
+
+.banner{
+    background-image: url(./hw_banner1600.png);
+    position:fixed;
+        /* Fixes the banner at the top=================================== */
+    top: 0;
+    /* Position from the top */
+    left: 0;
+    /* Aligns to the left */
+    width: 100%;
+    /* Full width */
+    height: 180px;
+    background-color: #4CAF50;
+    /* Banner background color */
+    color: white;
+    /* Text color */
+    padding: 15px;
+    /* Padding around text */
+    text-align: center;
+    /* Centered text */
+    /* z-index: 1000; */
+    /* Ensures it stays on top of other content=========================== */
+}
+
+
+.t11{
+    position: fixed;
+        /* Position text absolutely within the banner */
+    top: 0px;
+    left: 50px;
+    color: white;
+        /* Text color */
+    font-size: 55px;
+    font-family: "3Ddump";
+    text-shadow: 2px 6px 4px rgba(252, 251, 249, 0.7);
+        /* Optional shadow for better readability */
+}
+
+@font-face {
+    font-family: "3Ddump";
+    src: url(./3Dumb.ttf);
+}
+
+.t21 {
+    position: fixed;
+        /* Position text absolutely within the banner */
+    top: 100px;
+    right: 180px;
+    color: yellow;
+        /* Text color */
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 6px 4px rgba(225, 247, 131, 0.7);
+        /* Optional shadow for better readability */
+}
+
+.t22 {
+    position: fixed;
+        /* Position text absolutely within the banner */
+    top: 150px;
+    right: 145px;
+    color: rgba(255, 255, 255, 0.897);
+        /* Text color */
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 6px 4px rgba(252, 251, 249, 0.7);
+        /* Optional shadow for better readability */
+}
+
+.comment{
+    margin-top: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+

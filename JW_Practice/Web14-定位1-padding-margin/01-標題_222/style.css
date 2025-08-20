@@ -1,0 +1,31 @@
+/* @import url("reset.css"); */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+div{
+    box-sizing: border-box;
+    background-color: aqua;
+    background-image: url(./banner.jpg);
+    height: 350px;
+    width: 1200px;
+
+    /* top/bottom 0 and left/right auto: means put it in center */
+    margin: 0 auto;  
+
+    /* move the header toward to right        */
+    padding-left: 650px; 
+
+    /* move the header downward  */
+    padding-top: 165px;
+}
+
+
+
+h1{
+    /* background-color: blueviolet; */
+   
+}

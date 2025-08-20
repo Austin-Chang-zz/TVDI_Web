@@ -1,0 +1,36 @@
+    
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #170c3f;
+    overflow: hidden;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    flex: 1;
+    /* Equal width for all buttons */
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #575757;
+    /* Darker background on hover */
+}
+
+section {
+    margin: 30px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,24 @@
+ul{
+	padding-left:0;}
+li{
+	list-style-type:none;
+	float: left
+		/* float the vertical to horizontal if all li are the same button style */
+}
+
+li a{
+	display: block;
+	width: 200px;
+	height: 50px;
+	background-color:#690;
+	text-align:center;
+	color:#FFF;
+	text-decoration:none;
+	line-height:50px;
+	margin-bottom:10px;
+}
+
+li a:hover{
+	background-color:#06C;
+	color:#FF6;	}
+

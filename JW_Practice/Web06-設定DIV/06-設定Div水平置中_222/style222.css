@@ -1,0 +1,13 @@
+body{
+    background-color:rgb(193, 228, 122) ;
+
+}
+div{
+    background-color: rgb(245, 226, 202);
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+div p{
+    text-align: justify;
+}

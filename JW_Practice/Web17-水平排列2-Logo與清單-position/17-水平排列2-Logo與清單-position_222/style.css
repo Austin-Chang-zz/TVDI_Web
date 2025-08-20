@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 5px;
+}
+h1{
+    /* background-color: antiquewhite; */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    /* float: left; */
+}
+ul{
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 5px;
+    right: 30px;
+}
+
+li{
+    /* background-color: #f38080; */
+    list-style-type: none;
+    float: left;
+        /* the sequence will be 1 2 3 4 5 */
+    /* float: right; */
+        /* the sequence will be 5 4 3 2 1 */
+}
+
+li a{
+    box-sizing: border-box;
+    /* background-color: #749b1a; */
+    margin: 15px;
+    display: block;
+        /* it will occupy the full width of its parent container,stretching from the left to the right edge. */
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 95px;  
+        /* move the text downwards */
+    font-size: 18px;       
+}
+
+.icon1 a{
+    background-image: url(./icon1_1.png);
+}
+
+.icon2 a {
+    background-image: url(./icon2_1.png);
+}
+
+.icon3 a {
+    background-image: url(./icon3_1.png);
+}
+
+.icon4 a {
+    background-image: url(./icon4_1.png);
+}
+
+.icon5 a {
+    background-image: url(./icon5_1.png);
+}
+
+/* ----------------------------------------------- */
+.icon1 a:hover {
+    background-image: url(./icon1_2.png);
+}
+
+.icon2 a:hover {
+    background-image: url(./icon2_2.png);
+}
+
+.icon3 a:hover {
+    background-image: url(./icon3_2.png);
+}
+
+.icon4 a:hover {
+    background-image: url(./icon4_2.png);
+}
+
+.icon5 a:hover {
+    background-image: url(./icon5_2.png);
+}

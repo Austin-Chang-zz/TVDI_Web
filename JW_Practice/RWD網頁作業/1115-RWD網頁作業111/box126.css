@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    width: 1900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 1500px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box>div {
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+/* .b1 {
+    background: url('photo1.jpg') no-repeat center center / cover;
+} */
+
+.b1 {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.b2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.b2 h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.b2 a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.b3 {
+    background: url('photo2.jpg') no-repeat center center / cover;
+}
+
+.b4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.b4 img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.b4 p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.b4 a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.b5 {
+    background: url('photo3.jpg') no-repeat center center / cover;
+}
+
+.b6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.b6 img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.b6 p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.b6 a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,7 @@
+.content img:first-of-type{
+    float: left;
+}
+
+.content img:last-of-type{
+    float: right;
+}

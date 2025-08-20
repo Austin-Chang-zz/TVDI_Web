@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;;
+}
+
+body{
+    background-image: url(../bg.gif);
+    /* make the body to center------------------ */
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: #fff;
+    width: 1200px;
+        /* width must be the first defined---------- */
+}
+
+/* header use the postion method------------- */
+.header {
+    background-color: #efd2d2;
+    position: relative;
+
+}
+
+.header h1 {
+    position: absolute;
+    left: 50px;
+    top: 0px;
+}
+
+.header ul {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    display: flex;
+    list-style: none;
+}
+
+.header a {
+    margin: 10px;
+}
+
+.box {
+    display: flex;
+}
+
+.nav {
+    background-color: #eea2a2;
+    width: 200px;
+}
+
+.nav ul {
+    background-color: #8174e7;
+}
+
+.nav li {
+    background-color: #8adb5b;
+    list-style: none;
+}
+
+.nav li a {
+    /* background-color: #ffffff; */
+    padding-left: 30px;
+
+}
+
+
+.content {
+    background-color: #ffffff;
+    width: 1000px;
+}
+
+.content p {
+    background-color: #d64747;
+}
+
+.footer {
+    background-color: #49d397;
+}

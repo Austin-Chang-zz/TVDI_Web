@@ -1,0 +1,18 @@
+table{}
+tr{}
+.LLL,.RRR{
+    background-color: #96f766;
+    color: blue;
+}
+
+.CCC{
+    background-color: aqua;
+    padding: 30px 0 ;
+}
+.CCC h1{}
+.CCC p{}
+
+.RRR{}
+.RRR.p{
+    background-color: aqua;
+}

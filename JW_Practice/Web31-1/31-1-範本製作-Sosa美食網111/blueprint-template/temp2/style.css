@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../bg.gif);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #320857;
+    width: 1200px;
+}
+
+.header{
+    background-color: #efc2db;
+    height: 100px;
+    box-sizing: border-box;
+    flex: ;
+
+}
+
+.header h1{
+    float:left;
+}
+.header ul{
+
+}
+.header li{}
+.header li a{}
+.header li a:hover{}
+.banner {
+    background-color: aqua;
+}
+
+.nav{
+    background-color: #c5e683;
+}
+.nav ul{}
+.nav li{}
+.nav li a{}
+.nav li a:hover{}
+
+.conent{
+    background-color: #df2525;
+}
+
+.footer{
+    background-color: #69e937;
+}
+

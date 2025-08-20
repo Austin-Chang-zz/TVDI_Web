@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    /* font-family: Arial, Helvetica, "標楷體", sans-serif; */
+    font-size: 18px;
+}
+
+
+
+.header{
+    /* background-color: #eb93936c; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.header h1{}
+.header ul{
+    /* display: flex; */
+    /* display: none; */
+}
+.header li{
+    float: left;
+    list-style: none;
+}
+.header li a{
+    margin: 5px;
+}
+.header li a:hover{}
+
+.banner{}
+.banner img{
+    /* if image width is over page width */
+    width: 100%; 
+    height: auto;
+    vertical-align: bottom;
+}
+
+.office{
+    /* background-color: #e3c8c8; */
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.office .ofbox{
+    /* background-color: #5367784b; */
+    width: 22%;
+    padding: 5px;
+    /* margin: 5px; */
+    margin: 1%;
+    text-align: center;
+
+}
+
+.office .ofbox img{
+    /* image size will be changed as well */
+    max-width: 100%;
+    /* width: 100%; */
+    height: auto;
+
+}
+.office .ofbox p{}
+
+.ad{
+    /* background-color: #2b9a6b; */
+    padding: 20px;
+    display: flex;
+}
+.adbox{
+    /* background-color: #e39797; */
+    width: 25%;
+    margin: 1%;
+}
+.ad img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.nav{
+    /* background-color: #ffffff; */
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.nav .navbox{
+    /* background-color: #b8e397; */
+    width: 15%;
+    margin: 1%;
+    padding: 20px;
+}
+.nav .navbox p{
+    margin-bottom: 8px;
+}
+.nav .navbox ul{}
+.nav .navbox li{
+    list-style: none;
+}
+.nav .navbox li a{
+    margin-bottom: 5px;
+}
+.nav .navbox li a:hover{}
+
+.footer{
+    /* background-color: #e6a8a8; */
+    color: #18280d;
+    padding: 20px;
+    text-align: center;
+}
+.footer h2{}
+.footer p{}
+
+
+/* ===== tablet css================ */
+@media screen and (max-width:1200px) and (min-width:769px){
+
+
+    .office {
+        flex-wrap: wrap;
+       
+    }
+
+    .office .ofbox {
+        /* background-color: #971d1d; */
+        width: 44%;
+      
+  
+    }
+
+    .office .ofbox img {
+        /* image size will be changed as well */
+        max-width: 100%;
+        /* width: 100%; */
+        height: auto;
+
+    }
+
+    .office .ofbox p {}
+
+    .ad {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .adbox {
+        /* background-color: #e39797; */
+        width: 44%;
+    }
+
+
+
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .nav .navbox {
+       width: 44%;
+    }
+
+
+   
+}
+
+
+/* =========mobile css===================== */
+@media screen and (max-width:768px){
+    /* mobile will not show the header */
+    .header ul{
+        display: none;
+    }
+
+    .office {
+        flex-wrap: wrap;
+
+    }
+
+    .office .ofbox {
+        /* background-color: #971d1d; */
+        width: 96%;
+
+
+    }
+
+   
+    .ad {
+        flex-wrap: wrap;
+    }
+
+    .adbox {
+        /* background-color: #e39797; */
+        width: 100%;
+    }
+
+
+
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .nav .navbox {
+        width: 80%;
+    }
+
+}
+
+    
+
+
+
+
+

@@ -1,0 +1,26 @@
+
+a:link{
+    color: rgb(16, 61, 101);
+}
+a:visited{
+    color: rgb(115, 0, 255);
+}
+a:hover{
+    color: rgb(231, 238, 34);
+}
+a:active{
+    color: chartreuse;
+}
+
+body{
+    font-family: Arial, Helvetica, "微軟正黑體",sans-serif;
+}
+
+a{
+    color: chocolate;
+}
+
+a:hover{
+        color: green;
+        font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,24 @@
+/* @import url("reset.css"); */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+div{
+    background-image: url(./banner.jpg);
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+h1{
+    background-color: rgba(177, 177, 236, 0.644);
+    padding-left: 650px;
+        /* move the header toward to right        */
+    padding-top: 165px;
+        /* move the header downward  */
+}

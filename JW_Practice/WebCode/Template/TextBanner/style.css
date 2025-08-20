@@ -1,0 +1,25 @@
+  
+  body {
+      margin: 0;
+      /* Remove default margin */
+  }
+
+  #banner {
+    width: 1600px;
+      /* width: 100%; */
+      /* Full width */
+      height: 200px;
+      /* Set height */
+      background-color: #4CAF50;
+      /* Banner color */
+      color: white;
+      /* Text color */
+      display: flex;
+      /* Center content */
+      align-items: center;
+      /* Vertically center */
+      justify-content: center;
+      /* Horizontally center */
+      text-align: center;
+      /* Center text */
+  }
